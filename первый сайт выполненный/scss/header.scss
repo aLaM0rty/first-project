@@ -1,0 +1,54 @@
+body{
+   margin:0;
+   font-family: 'Open Sans', sans-serif;
+   cursor: default
+}
+
+//Основная часть всей странички
+.body{
+   display: flex;
+
+   flex-direction: column;
+}
+
+//Основная часть header
+.header{
+   width: 100%;
+   min-height: 768px;
+   display: flex;
+
+   background: url('../img/bg.jpg') no-repeat;
+   background-size: 100%;
+
+   justify-content: center;
+}
+
+//Составляющие части header
+.header__base-text{
+   display: flex;
+
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+
+   margin-top: 40px;
+   margin-bottom: 71px;
+
+   color: #fff;
+   text-align: center;
+}
+
+//Составляющие части .header__base-text
+.center-info{
+   font-size: 16px;
+   color: #fff;
+}
+
+.center-info__UpCase-text{
+   font-size:60px;
+   font-weight: 800;
+}
+
+.header__base-text__scroll-button{
+   cursor: pointer;
+}
