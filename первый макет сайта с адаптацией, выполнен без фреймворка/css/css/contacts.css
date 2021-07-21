@@ -1,0 +1,138 @@
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 114px;
+  padding-bottom: 123px;
+}
+
+.contacts__header {
+  font-size: 34px;
+  font-weight: 800;
+  margin-bottom: 37px;
+}
+
+.contacts__social-text {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: #828282;
+}
+
+.contacts__text {
+  max-width: 275px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.contacts__button-send-messange {
+  min-width: 180px;
+  min-height: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #000;
+  border-radius: 25px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 86px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.contacts__block-icon {
+  width: 342px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 46px;
+}
+
+.contacts__block-icon-linkenin {
+  min-width: 32px;
+  max-width: 32px;
+  min-height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 4px solid #000;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.contacts__block-icon-linkenin__img {
+  max-width: 65%;
+}
+
+.contacts__block-icon-inst {
+  min-width: 40px;
+  max-width: 40px;
+  min-height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+.contacts__block-icon-inst__img {
+  max-width: 100%;
+}
+
+.contacts__block-icon-behance {
+  min-width: 32px;
+  max-width: 32px;
+  min-height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 4px solid #000;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.contacts__block-icon-behance__img {
+  max-width: 80%;
+}
+
+.contacts__block-icon-dribble {
+  min-width: 40px;
+  max-width: 40px;
+  min-height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+.contacts__block-icon-dribble__img {
+  max-width: 100%;
+}

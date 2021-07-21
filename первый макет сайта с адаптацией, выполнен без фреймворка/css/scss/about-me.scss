@@ -1,0 +1,29 @@
+// соновной блок about
+.about-me{
+   display:flex;
+
+   padding-top: 121px;
+   padding-bottom:107px;
+
+   background-color: #F6F6F6;
+
+   text-align:center;
+   font-weight: 400;
+
+   flex-direction: column;
+   align-items: center;
+}
+
+//заголовок .about-me
+.about-me__header{
+   font-size: 34px;
+   font-weight: 600;
+}
+
+.about-me__text{
+   width: 484px;
+}
+
+.about-me__text__inside{
+   margin-top:35px;
+}

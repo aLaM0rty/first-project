@@ -1,0 +1,21 @@
+@media (min-width: 260px) and (max-width: 768px) {
+  .skills {
+    width: 100%;
+  }
+
+  .skills__base-block {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .skills-block {
+    margin-bottom: 80px;
+  }
+
+  .figma {
+    margin-bottom: 0px;
+  }
+}
